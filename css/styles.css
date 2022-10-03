@@ -12,6 +12,11 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+h2 {
+  font-family: "Ubuntu", "Merriweather", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 .container-fluid {
   padding: 3% 15%;
@@ -49,11 +54,13 @@ h1 {
 
 /*features section*/
 .features {
-  margin: 100px 0;
+  padding: 7% 15%;
 }
 
 .easy-symbol {
   color: #ef8172;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
 }
 
 .easy-symbol:hover {
@@ -67,8 +74,53 @@ h1 {
   text-align: center;
   font-family: "Ubuntu", "Merriweather", sans-serif;
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 .features-p {
   text-align: center;
+  padding: 0 10%;
   color: #8f8f8f;
+}
+
+/*Testimonials section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*Press section*/
+
+#press {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing section*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
